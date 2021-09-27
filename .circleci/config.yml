@@ -6,13 +6,13 @@ workflows:
   test-and-build:
     jobs:
       - unit-test
-      - android-test: # Commits to any branch - skip matrix of devices
-          filters:
+#      - android-test: # Commits to any branch - skip matrix of devices
+#          filters:
 #            branches:
 #              ignore: main
-      - android-test: # Commits to main branch only - run full matrix
-          matrix:
-            alias: android-test-all
+#      - android-test: # Commits to main branch only - run full matrix
+#          matrix:
+#            alias: android-test-all
 #            parameters:
 #              system-image:
 #                - system-images;android-30;google_apis;x86
