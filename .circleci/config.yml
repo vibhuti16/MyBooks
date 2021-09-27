@@ -1,5 +1,4 @@
 # .circleci/config.yaml
-version: 2.1 # to enable orb usage, you must be using circleci 2.1
 # Declare the orbs you wish to use.
 # Android orb docs are available here:  https://circleci.com/developer/orbs/orb/circleci/android
 orbs:
