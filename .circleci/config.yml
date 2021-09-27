@@ -7,7 +7,7 @@ orbs:
 workflows:
   test-and-build:
     jobs:
-#      - unit-test
+      - unit-test
       - android-test: # Commits to any branch - skip matrix of devices
           filters:
             branches:
