@@ -12,3 +12,9 @@ workflows:
           # Use pre-steps and post-steps if necessary
           # to execute custom steps before and afer any of the built-in steps
           system-image: system-images;android-29;default;x86
+      - build:
+            name: build 2.12.8
+            version: 2.12.8
+            filters:
+              tags:
+#                only: /^v.*/
