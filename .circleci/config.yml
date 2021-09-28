@@ -131,7 +131,7 @@ jobs:
 workflows:
   test-and-build:
     jobs:
-      - unit-test
+#      - unit-test
       - android/run-ui-tests:
           filters:
             branches:
