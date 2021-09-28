@@ -155,12 +155,12 @@ workflows:
               only: master # Commits to main branch
       - benchmarks-emulator
       - benchmarks-ftl
-      - release-build:
-          requires:
-            - unit-test
-            - android-test-all
-            - benchmarks-emulator
-            - benchmarks-ftl
+#      - release-build:
+#          requires:
+#            - unit-test
+#            - android-test-all
+#            - benchmarks-emulator
+#            - benchmarks-ftl
           filters:
             branches:
               only: master # Commits to main branch
